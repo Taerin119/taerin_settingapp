@@ -21,7 +21,7 @@ struct ContentView: View {
     
     var body: some View {
     
-        Text("Sounds & Haptics")
+        Text("Haptics")
         
         NavigationView {
             
