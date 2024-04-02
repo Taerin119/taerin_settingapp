@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DF128D742BB8F82900FFCC3E /* SettingsSounds_HapticsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF128D732BB8F82900FFCC3E /* SettingsSounds_HapticsApp.swift */; };
+		DF128D762BB8F82900FFCC3E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF128D752BB8F82900FFCC3E /* ContentView.swift */; };
+		DF128D782BB8F82A00FFCC3E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF128D772BB8F82A00FFCC3E /* Assets.xcassets */; };
+		DF128D7B2BB8F82A00FFCC3E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF128D7A2BB8F82A00FFCC3E /* Preview Assets.xcassets */; };
+		DF128D852BB8F82A00FFCC3E /* SettingsSounds_HapticsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF128D842BB8F82A00FFCC3E /* SettingsSounds_HapticsTests.swift */; };
+		DF128D8F2BB8F82A00FFCC3E /* SettingsSounds_HapticsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF128D8E2BB8F82A00FFCC3E /* SettingsSounds_HapticsUITests.swift */; };
+		DF128D912BB8F82A00FFCC3E /* SettingsSounds_HapticsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF128D902BB8F82A00FFCC3E /* SettingsSounds_HapticsUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DF128D812BB8F82A00FFCC3E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF128D682BB8F82900FFCC3E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF128D6F2BB8F82900FFCC3E;
+			remoteInfo = "SettingsSounds&Haptics";
+		};
+		DF128D8B2BB8F82A00FFCC3E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF128D682BB8F82900FFCC3E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF128D6F2BB8F82900FFCC3E;
+			remoteInfo = "SettingsSounds&Haptics";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DF128D702BB8F82900FFCC3E /* SettingsSounds&Haptics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SettingsSounds&Haptics.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF128D732BB8F82900FFCC3E /* SettingsSounds_HapticsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsSounds_HapticsApp.swift; sourceTree = "<group>"; };
+		DF128D752BB8F82900FFCC3E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DF128D772BB8F82A00FFCC3E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DF128D7A2BB8F82A00FFCC3E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DF128D802BB8F82A00FFCC3E /* SettingsSounds&HapticsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SettingsSounds&HapticsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF128D842BB8F82A00FFCC3E /* SettingsSounds_HapticsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsSounds_HapticsTests.swift; sourceTree = "<group>"; };
+		DF128D8A2BB8F82A00FFCC3E /* SettingsSounds&HapticsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SettingsSounds&HapticsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF128D8E2BB8F82A00FFCC3E /* SettingsSounds_HapticsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsSounds_HapticsUITests.swift; sourceTree = "<group>"; };
+		DF128D902BB8F82A00FFCC3E /* SettingsSounds_HapticsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsSounds_HapticsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DF128D6D2BB8F82900FFCC3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF128D7D2BB8F82A00FFCC3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF128D872BB8F82A00FFCC3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DF128D672BB8F82900FFCC3E = {
+			isa = PBXGroup;
+			children = (
+				DF128D722BB8F82900FFCC3E /* SettingsSounds&Haptics */,
+				DF128D832BB8F82A00FFCC3E /* SettingsSounds&HapticsTests */,
+				DF128D8D2BB8F82A00FFCC3E /* SettingsSounds&HapticsUITests */,
+				DF128D712BB8F82900FFCC3E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DF128D712BB8F82900FFCC3E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DF128D702BB8F82900FFCC3E /* SettingsSounds&Haptics.app */,
+				DF128D802BB8F82A00FFCC3E /* SettingsSounds&HapticsTests.xctest */,
+				DF128D8A2BB8F82A00FFCC3E /* SettingsSounds&HapticsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DF128D722BB8F82900FFCC3E /* SettingsSounds&Haptics */ = {
+			isa = PBXGroup;
+			children = (
+				DF128D732BB8F82900FFCC3E /* SettingsSounds_HapticsApp.swift */,
+				DF128D752BB8F82900FFCC3E /* ContentView.swift */,
+				DF128D772BB8F82A00FFCC3E /* Assets.xcassets */,
+				DF128D792BB8F82A00FFCC3E /* Preview Content */,
+			);
+			path = "SettingsSounds&Haptics";
+			sourceTree = "<group>";
+		};
+		DF128D792BB8F82A00FFCC3E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DF128D7A2BB8F82A00FFCC3E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DF128D832BB8F82A00FFCC3E /* SettingsSounds&HapticsTests */ = {
+			isa = PBXGroup;
+			children = (
+				DF128D842BB8F82A00FFCC3E /* SettingsSounds_HapticsTests.swift */,
+			);
+			path = "SettingsSounds&HapticsTests";
+			sourceTree = "<group>";
+		};
+		DF128D8D2BB8F82A00FFCC3E /* SettingsSounds&HapticsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DF128D8E2BB8F82A00FFCC3E /* SettingsSounds_HapticsUITests.swift */,
+				DF128D902BB8F82A00FFCC3E /* SettingsSounds_HapticsUITestsLaunchTests.swift */,
+			);
+			path = "SettingsSounds&HapticsUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DF128D6F2BB8F82900FFCC3E /* SettingsSounds&Haptics */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF128D942BB8F82A00FFCC3E /* Build configuration list for PBXNativeTarget "SettingsSounds&Haptics" */;
+			buildPhases = (
+				DF128D6C2BB8F82900FFCC3E /* Sources */,
+				DF128D6D2BB8F82900FFCC3E /* Frameworks */,
+				DF128D6E2BB8F82900FFCC3E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SettingsSounds&Haptics";
+			productName = "SettingsSounds&Haptics";
+			productReference = DF128D702BB8F82900FFCC3E /* SettingsSounds&Haptics.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DF128D7F2BB8F82A00FFCC3E /* SettingsSounds&HapticsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF128D972BB8F82A00FFCC3E /* Build configuration list for PBXNativeTarget "SettingsSounds&HapticsTests" */;
+			buildPhases = (
+				DF128D7C2BB8F82A00FFCC3E /* Sources */,
+				DF128D7D2BB8F82A00FFCC3E /* Frameworks */,
+				DF128D7E2BB8F82A00FFCC3E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF128D822BB8F82A00FFCC3E /* PBXTargetDependency */,
+			);
+			name = "SettingsSounds&HapticsTests";
+			productName = "SettingsSounds&HapticsTests";
+			productReference = DF128D802BB8F82A00FFCC3E /* SettingsSounds&HapticsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DF128D892BB8F82A00FFCC3E /* SettingsSounds&HapticsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF128D9A2BB8F82A00FFCC3E /* Build configuration list for PBXNativeTarget "SettingsSounds&HapticsUITests" */;
+			buildPhases = (
+				DF128D862BB8F82A00FFCC3E /* Sources */,
+				DF128D872BB8F82A00FFCC3E /* Frameworks */,
+				DF128D882BB8F82A00FFCC3E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF128D8C2BB8F82A00FFCC3E /* PBXTargetDependency */,
+			);
+			name = "SettingsSounds&HapticsUITests";
+			productName = "SettingsSounds&HapticsUITests";
+			productReference = DF128D8A2BB8F82A00FFCC3E /* SettingsSounds&HapticsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DF128D682BB8F82900FFCC3E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					DF128D6F2BB8F82900FFCC3E = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					DF128D7F2BB8F82A00FFCC3E = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = DF128D6F2BB8F82900FFCC3E;
+					};
+					DF128D892BB8F82A00FFCC3E = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = DF128D6F2BB8F82900FFCC3E;
+					};
+				};
+			};
+			buildConfigurationList = DF128D6B2BB8F82900FFCC3E /* Build configuration list for PBXProject "SettingsSounds&Haptics" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DF128D672BB8F82900FFCC3E;
+			productRefGroup = DF128D712BB8F82900FFCC3E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DF128D6F2BB8F82900FFCC3E /* SettingsSounds&Haptics */,
+				DF128D7F2BB8F82A00FFCC3E /* SettingsSounds&HapticsTests */,
+				DF128D892BB8F82A00FFCC3E /* SettingsSounds&HapticsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DF128D6E2BB8F82900FFCC3E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF128D7B2BB8F82A00FFCC3E /* Preview Assets.xcassets in Resources */,
+				DF128D782BB8F82A00FFCC3E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF128D7E2BB8F82A00FFCC3E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF128D882BB8F82A00FFCC3E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DF128D6C2BB8F82900FFCC3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF128D762BB8F82900FFCC3E /* ContentView.swift in Sources */,
+				DF128D742BB8F82900FFCC3E /* SettingsSounds_HapticsApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF128D7C2BB8F82A00FFCC3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF128D852BB8F82A00FFCC3E /* SettingsSounds_HapticsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF128D862BB8F82A00FFCC3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF128D912BB8F82A00FFCC3E /* SettingsSounds_HapticsUITestsLaunchTests.swift in Sources */,
+				DF128D8F2BB8F82A00FFCC3E /* SettingsSounds_HapticsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DF128D822BB8F82A00FFCC3E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DF128D6F2BB8F82900FFCC3E /* SettingsSounds&Haptics */;
+			targetProxy = DF128D812BB8F82A00FFCC3E /* PBXContainerItemProxy */;
+		};
+		DF128D8C2BB8F82A00FFCC3E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DF128D6F2BB8F82900FFCC3E /* SettingsSounds&Haptics */;
+			targetProxy = DF128D8B2BB8F82A00FFCC3E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DF128D922BB8F82A00FFCC3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DF128D932BB8F82A00FFCC3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DF128D952BB8F82A00FFCC3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SettingsSounds&Haptics/Preview Content\"";
+				DEVELOPMENT_TEAM = 9ZVXGCPGX4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Rin.SettingsSounds-Haptics";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DF128D962BB8F82A00FFCC3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SettingsSounds&Haptics/Preview Content\"";
+				DEVELOPMENT_TEAM = 9ZVXGCPGX4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Rin.SettingsSounds-Haptics";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DF128D982BB8F82A00FFCC3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9ZVXGCPGX4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Rin.SettingsSounds-HapticsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SettingsSounds&Haptics.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SettingsSounds&Haptics";
+			};
+			name = Debug;
+		};
+		DF128D992BB8F82A00FFCC3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9ZVXGCPGX4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Rin.SettingsSounds-HapticsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SettingsSounds&Haptics.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SettingsSounds&Haptics";
+			};
+			name = Release;
+		};
+		DF128D9B2BB8F82A00FFCC3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9ZVXGCPGX4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Rin.SettingsSounds-HapticsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "SettingsSounds&Haptics";
+			};
+			name = Debug;
+		};
+		DF128D9C2BB8F82A00FFCC3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9ZVXGCPGX4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Rin.SettingsSounds-HapticsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "SettingsSounds&Haptics";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DF128D6B2BB8F82900FFCC3E /* Build configuration list for PBXProject "SettingsSounds&Haptics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF128D922BB8F82A00FFCC3E /* Debug */,
+				DF128D932BB8F82A00FFCC3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF128D942BB8F82A00FFCC3E /* Build configuration list for PBXNativeTarget "SettingsSounds&Haptics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF128D952BB8F82A00FFCC3E /* Debug */,
+				DF128D962BB8F82A00FFCC3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF128D972BB8F82A00FFCC3E /* Build configuration list for PBXNativeTarget "SettingsSounds&HapticsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF128D982BB8F82A00FFCC3E /* Debug */,
+				DF128D992BB8F82A00FFCC3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF128D9A2BB8F82A00FFCC3E /* Build configuration list for PBXNativeTarget "SettingsSounds&HapticsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF128D9B2BB8F82A00FFCC3E /* Debug */,
+				DF128D9C2BB8F82A00FFCC3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DF128D682BB8F82900FFCC3E /* Project object */;
+}
